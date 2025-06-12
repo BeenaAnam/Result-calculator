@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>📚Result Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>📚Result Calculator</h1>
+
+      <div class="form-in">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name"/>
+      </div>
+      <div class="form-in">
+        <label for="father-name">Father Name:</label>
+        <input type="text" id="father-name" placeholder="Enter Your father Name"/>
+      </div>
+
+      <div class="form-in">
+        <label for="roll-number">Roll Number:</label>
+        <input type="number" id="roll-number" value="123456" />
+      </div>
+      <div class="form-in">
+        <label for="sub">Computer Marks:</label>
+        <input type="number" id="computer" value="90" />
+      </div>
+      <div class="form-in">
+        <label for="sub">Maths Marks:</label>
+        <input type="number" id="maths" value="90" />
+      </div>
+
+      <div class="form-in">
+        <label for="sub">Eenlish Marks:</label>
+        <input type="number" id="english" value="90" />
+      </div>
+      <div class="form-in">
+        <label for="sub">Urdu Marks:</label>
+        <input type="number" id="urdu" value="90" />
+      </div>
+      <div class="form-in">
+        <label for="sub">Islamiyat Marks:</label>
+        <input type="number" id="islamiyat" value="90" />
+      </div>
+      <button onclick="calculateGrade()">Generate Result</button>
+    </div>
+    <div id="result"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
